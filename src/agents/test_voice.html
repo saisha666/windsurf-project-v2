@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voice Input Test</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .chat-container {
+            width: 80%;
+            max-width: 600px;
+        }
+        .chat-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 20px;
+            outline: none;
+        }
+        .chat-input:focus {
+            border-color: #0066ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <input type="text" class="chat-input" placeholder="Type or click the mic to speak...">
+    </div>
+    <script src="voice_input.js"></script>
+</body>
+</html>

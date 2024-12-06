@@ -1,0 +1,46 @@
+{
+    "providers": {
+        "evolution": {
+            "id": "3",
+            "name": "Evolution Gaming",
+            "config_file": "evolution.json",
+            "base_url": "YOUR_EVOLUTION_URL",
+            "max_tables": 3,
+            "batch_size": 3,
+            "batch_delay": 2
+        },
+        "pragmatic": {
+            "id": "8",
+            "name": "Pragmatic Play",
+            "config_file": "pragmatic.json",
+            "base_url": "YOUR_PRAGMATIC_URL"
+        },
+        "ezugi": {
+            "id": "7",
+            "name": "Ezugi",
+            "config_file": "ezugi.json",
+            "base_url": "YOUR_EZUGI_URL"
+        },
+        "playtech": {
+            "id": "5",
+            "name": "Playtech",
+            "config_file": "playtech.json",
+            "base_url": "YOUR_PLAYTECH_URL"
+        }
+    },
+    "database": {
+        "type": "mongodb",
+        "connection_string": "mongodb://localhost:27017/",
+        "database_name": "roulette_data"
+    },
+    "scraper_settings": {
+        "buffer_size": 10,
+        "save_interval": 60,
+        "retry_interval": 5,
+        "memory_limit": 8000,
+        "cpu_limit": 80,
+        "browser_instances": 1,
+        "tables_per_browser": 3,
+        "max_concurrent_tables": 10
+    }
+}
