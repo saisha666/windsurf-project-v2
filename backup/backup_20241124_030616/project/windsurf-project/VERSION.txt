@@ -1,0 +1,31 @@
+Version 1.0.0
+
+Stealth Roulette Data Collection System
+Last Updated: 2024
+
+Key Features:
+- Autonomous data collection with OCR
+- Multi-layer encryption and stealth
+- Provider and table tracking
+- Advanced validation system
+- Spin time analysis
+- Network/resource monitoring
+- Q: drive storage system
+
+Usage:
+1. Run main.py to start collection
+2. Use keyboard controls:
+   - 'q': Quit
+   - 'v': View stats
+   - 'p': Pause/resume
+
+Data Format:
+Time|Number|Color|SpinMS
+Example: 15:30:45|32|r|5432
+
+Security:
+- Silent operation
+- Encrypted storage
+- Anti-detection measures
+- Resource monitoring
+- Network analysis

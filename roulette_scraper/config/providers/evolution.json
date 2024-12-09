@@ -1,0 +1,27 @@
+{
+    "tables": [
+        {
+            "id": "LightningTable01",
+            "description": "Lightning Roulette",
+            "path": "lightning-roulette",
+            "has_multiplier": true
+        },
+        {
+            "id": "AutoTable01",
+            "description": "Auto Roulette",
+            "path": "auto-roulette",
+            "has_multiplier": false
+        },
+        {
+            "id": "ImmersiveTable01",
+            "description": "Immersive Roulette",
+            "path": "immersive-roulette",
+            "has_multiplier": false
+        }
+    ],
+    "selectors": {
+        "number": ".result-number, .winning-number, .number-value",
+        "multiplier": ".multiplier-value, .multiplier",
+        "history": ".history-numbers .number, .previous-results .number"
+    }
+}
